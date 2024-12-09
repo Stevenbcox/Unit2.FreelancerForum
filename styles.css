@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    background-color: #5a5ad4;
+    color: black;
+    font-family: "Comic Sans MS";
+}
+
+table {
+    width: 50%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid #686868;
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: #686868;
+}
+
+.average-price {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+}
