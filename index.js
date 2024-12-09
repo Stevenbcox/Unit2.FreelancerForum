@@ -76,14 +76,11 @@ document.addEventListener("DOMContentLoaded", () => {
     let intervalID = setInterval(function () {
         if (renderCount >= 5) {
             clearInterval(intervalID);
-            console.log("Stopped adding freelancers after 5 iterations.");
             return;
         }
 
         const newFreelancer = createRandomFreelancer();
         addFreelancer(newFreelancer);
-
-        console.log("Current freelancers count:", jobs.freelancer.length);
 
         ++renderCount;
     }, 1000);
