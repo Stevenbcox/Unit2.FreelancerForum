@@ -1,7 +1,7 @@
 body {
     margin: 0;
     background-color: #5a5ad4;
-    color: black;
+    color: rgb(255, 255, 255);
     font-family: "Comic Sans MS";
 }
 
@@ -11,7 +11,7 @@ table {
     border-collapse: collapse;
 }
 th, td {
-    border: 1px solid #686868;
+    border: 1px solid #000000;
     padding: 8px;
     text-align: left;
 }
